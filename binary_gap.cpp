@@ -37,14 +37,13 @@ int solution(int N){
             prev = i;
         }
     }
-    cout << max;
+    return max;
 
 }
 
 int main(){
     int N;
     cin >> N;
-    solution(N);
-    //cout << solution(N);
+    cout << solution(N);
     return 0;
 }
